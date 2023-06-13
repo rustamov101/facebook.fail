@@ -1,0 +1,115 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: rgba(240, 240, 240, 0.966);
+}
+@font-face {
+    font-family: "mon";
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+  }
+
+
+
+
+
+
+
+
+
+.contr{
+
+width: 30%;
+height: 500px;
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(94, 94, 94, 0.5);
+
+}
+
+.big{
+display: flex;
+justify-content: center;
+}
+.logo{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+
+}
+.text h1{
+   
+    font-size: 24px;
+    font-family: m, Helvetica, sans-serif,  Tahoma, sans-serif;
+   text-align: center;
+   font-weight: bolder;
+
+}
+
+.text h3 {
+    font-size:16px;
+    font-family: mon, Helvetica, sans-serif, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(124, 124, 124);
+    padding-top: 10px;
+    margin-bottom: 30px;
+font-weight: lighter;
+    } 
+.text {
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+background-color: rgb(255, 255, 255);
+border-bottom: 2px solid rgb(92, 92, 92);
+}
+
+.p {
+display: flex;
+justify-content: space-around;
+}
+
+.p input {
+    width: 100%;
+height: 200%;
+border-radius: 7px;
+border: 2px solid blue;
+
+}
+input:hover {
+    cursor: pointer;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+justify-content:center ;
+   margin-top:40px ;
+}
+
+.colonna input{
+    width: 80%;
+    height: 200%;
+    border-radius: 7px;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+
+
+}
+/* .text h1 {
+font-size: 24px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-weight: bolder;
+}
+.text h3 {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+    } */
+    
+
+
